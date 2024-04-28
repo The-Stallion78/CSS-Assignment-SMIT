@@ -15,9 +15,9 @@
 
 <body>
   <!-- Navigation Bar -->
-  <nav id="Nav-bar" class="navbar navbar-expand-lg navbar-secondary bg-secondary">
+  <nav id="Nav-bar" class="navbar navbar-expand-lg navbar-secondary bg-transparent">
     <div class="container-fluid justify-content-end"> <!-- Add justify-content-end to align items to the right -->
-      <a class="navbar-brand" href="#">!Nterior</a>
+      <a id="interior" class="navbar-brand" href="index.html">!Ntɘrior</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,19 +25,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto"> <!-- Add ms-auto to push the list items to the right -->
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">BEDROOM</a>
+            <a class="nav-link" href="index.html">BEDROOM</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">DINING</a>
+            <a class="nav-link" href="index.html">DINING</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">KITCHEN</a> <!-- Remove the tabindex and aria-disabled attributes -->
+            <a class="nav-link" href="index.html">KITCHEN</a> 
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">BACKYARD</a> <!-- Remove the tabindex and aria-disabled attributes -->
+          <li id="backyard" class="nav-item">
+            <a class="nav-link" href="index.html">BACKYARD</a> 
           </li>
         </ul>
       </div>
@@ -47,10 +47,10 @@
   <div id="Main-content">
     <h1 id="main-heading">DESIGN YOUR HOUSE</h1>
     <P class="text">Subscribe Easy Tutorials You Tube Channel to watch more videos.</P>
-    <p class="text">Press the bell icon to get latest updates.</p><br>
-    <button id="button1" type="button" class="btn btn-success btn-lg">WATCH MORE</button>
-    <button id="button2" type="button" class="btn btn-outline-success btn-lg">SUBSCRIBE</button>
+    <p id="p1" class="text">Press the bell icon to get latest updates.</p>
   </div>
+  <button id="button1" type="button" class="btn btn-success btn-lg">WATCH MORE</button>
+  <button id="button2" type="button" class="btn btn-outline-success btn-lg">SUBSCRIBE</button>
 
 
   <!-- Option 1: Bootstrap Bundle with Popper -->

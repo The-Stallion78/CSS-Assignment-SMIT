@@ -1,18 +1,22 @@
 @import url(Main-content.css);
 @import url(buttons.css);
+@import url(Nav-bar.css);
 
 body {
-    background-image: url(interior-image.jpg);
+    background-image: url(homedesign2.jpg);
     background-size: cover;
+    
 }
 
 #Main-content {
-    width: 1300px;
-    height: 600px;
+    width: 900px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    margin-top: 400px;
+    margin-top: 50px;
+    
+    margin-bottom: 10px;
 }
 
 #Nav-bar {

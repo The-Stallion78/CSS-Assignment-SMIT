@@ -1,0 +1,18 @@
+#interior {
+    color: white;
+    margin-left: 60px;
+    font-weight: bolder;
+}
+
+#backyard {
+    margin-right: 50px;
+}
+
+.nav-link{
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline solid green 2px;
+}
+
